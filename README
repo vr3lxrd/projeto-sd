@@ -1,0 +1,17 @@
+## Repositório
+
+- /quartus -> Pasta dos projetos do Quartus Prime
+- DE10_LITE.qsf -> Mapeamento dos componentes da máquina FPGA que usamos no Laboratório
+- seq_rec.vhd -> Código da máquina Mealy anexada pelo professor na especificação do projeto
+- ReconhecedorSequencia_Mealy.vhd -> Código do seq_rec.vhd comentado
+- ReconhecedorSequencia_Moore.vhd -> Sketch inicial de um código para a máquina Moore
+
+## Sobre o projeto
+
+Reconhecedor sequencial utilizando VHDL e placa FPGL DE10-Lite, o intuito é reconhecer se um "usuário manual" fez a sequência fixa "1101" de alguma forma na placa. No código de exemplo dado pelo professor, a sequência é lida a partir de um input X 0 ou 1 a cada clock, e sua saída depende do estado atual da máquina e do input, por isso é uma máquina Mealy.
+
+## Informações relevantes
+
+- Nome do dispositivo = "10M50DAF484C7G"
+- Importar o mapeamento de componentes = Assignments -> Import Assignments -> Puxar o arquivo .qsf
+- Gerar tabela de estados = Tools -> Netlist Viewers -> State Machine Viewer

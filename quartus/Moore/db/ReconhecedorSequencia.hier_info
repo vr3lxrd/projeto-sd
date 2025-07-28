@@ -1,0 +1,11 @@
+|ReconhecedorSequencia
+CLK => state~1.DATAIN
+RESET => state~3.DATAIN
+X => next_state.B.DATAB
+X => next_state.C.DATAB
+X => next_state.E.DATAB
+X => Selector0.IN1
+X => next_state.D.DATAB
+Z <= Z.DB_MAX_OUTPUT_PORT_TYPE
+
+
