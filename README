@@ -15,3 +15,4 @@ Reconhecedor sequencial utilizando VHDL e placa FPGL DE10-Lite, o intuito é rec
 - Nome do dispositivo = "10M50DAF484C7G"
 - Importar o mapeamento de componentes = Assignments -> Import Assignments -> Puxar o arquivo .qsf
 - Gerar tabela de estados = Tools -> Netlist Viewers -> State Machine Viewer
+- https://www.dcode.fr/7-segment-display

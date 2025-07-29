@@ -1,5 +1,5 @@
 Flow report for ReconhecedorSequencia
-Mon Jul 28 17:06:07 2025
+Mon Jul 28 23:46:37 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -41,18 +41,18 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Jul 28 17:06:07 2025           ;
+; Flow Status                        ; Successful - Mon Jul 28 23:46:37 2025           ;
 ; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                      ; ReconhecedorSequencia                           ;
 ; Top-level Entity Name              ; ReconhecedorSequencia                           ;
 ; Family                             ; MAX 10                                          ;
 ; Device                             ; 10M50DAF484C7G                                  ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 10 / 49,760 ( < 1 % )                           ;
-;     Total combinational functions  ; 10 / 49,760 ( < 1 % )                           ;
+; Total logic elements               ; 11 / 49,760 ( < 1 % )                           ;
+;     Total combinational functions  ; 11 / 49,760 ( < 1 % )                           ;
 ;     Dedicated logic registers      ; 5 / 49,760 ( < 1 % )                            ;
 ; Total registers                    ; 5                                               ;
-; Total pins                         ; 21 / 360 ( 6 % )                                ;
+; Total pins                         ; 27 / 360 ( 8 % )                                ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                           ;
 ; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                                 ;
@@ -67,7 +67,7 @@ on the Quartus Prime software download page.
 +-------------------+-----------------------+
 ; Option            ; Setting               ;
 +-------------------+-----------------------+
-; Start date & time ; 07/28/2025 17:05:47   ;
+; Start date & time ; 07/28/2025 23:46:20   ;
 ; Main task         ; Compilation           ;
 ; Revision Name     ; ReconhecedorSequencia ;
 +-------------------+-----------------------+
@@ -78,7 +78,7 @@ on the Quartus Prime software download page.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 4681951301477.175373314705137          ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 4681951301477.175375718019995          ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -101,11 +101,11 @@ on the Quartus Prime software download page.
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis ; 00:00:06     ; 1.0                     ; 483 MB              ; 00:00:11                           ;
-; Fitter               ; 00:00:06     ; 1.0                     ; 1658 MB             ; 00:00:09                           ;
+; Fitter               ; 00:00:05     ; 1.0                     ; 1658 MB             ; 00:00:07                           ;
 ; Assembler            ; 00:00:01     ; 1.0                     ; 378 MB              ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 604 MB              ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 578 MB              ; 00:00:00                           ;
-; Total                ; 00:00:16     ; --                      ; --                  ; 00:00:24                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 596 MB              ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 578 MB              ; 00:00:00                           ;
+; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:21                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
