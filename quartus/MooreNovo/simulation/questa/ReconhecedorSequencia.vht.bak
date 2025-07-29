@@ -1,0 +1,74 @@
+-- Copyright (C) 2025  Altera Corporation. All rights reserved.
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and any partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, the Altera Quartus Prime License Agreement,
+-- the Altera IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Altera and sold by Altera or its authorized distributors.  Please
+-- refer to the Altera Software License Subscription Agreements 
+-- on the Quartus Prime software download page.
+
+-- ***************************************************************************
+-- This file contains a Vhdl test bench template that is freely editable to   
+-- suit user's needs .Comments are provided in each section to help the user  
+-- fill out necessary details.                                                
+-- ***************************************************************************
+-- Generated on "07/28/2025 23:59:46"
+                                                            
+-- Vhdl Test Bench template for design  :  ReconhecedorSequencia
+-- 
+-- Simulation tool : Questa Intel FPGA (VHDL)
+-- 
+
+LIBRARY ieee;                                               
+USE ieee.std_logic_1164.all;                                
+
+ENTITY ReconhecedorSequencia_vhd_tst IS
+END ReconhecedorSequencia_vhd_tst;
+ARCHITECTURE ReconhecedorSequencia_arch OF ReconhecedorSequencia_vhd_tst IS
+-- constants                                                 
+-- signals                                                   
+SIGNAL HEX0 : STD_LOGIC_VECTOR(6 DOWNTO 0);
+SIGNAL HEX2 : STD_LOGIC_VECTOR(6 DOWNTO 0);
+SIGNAL KEY : STD_LOGIC_VECTOR(1 DOWNTO 0);
+SIGNAL LEDR : STD_LOGIC_VECTOR(9 DOWNTO 0);
+SIGNAL SW : STD_LOGIC_VECTOR(0 DOWNTO 0);
+COMPONENT ReconhecedorSequencia
+	PORT (
+	HEX0 : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	HEX2 : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	KEY : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	LEDR : BUFFER STD_LOGIC_VECTOR(9 DOWNTO 0);
+	SW : IN STD_LOGIC_VECTOR(0 DOWNTO 0)
+	);
+END COMPONENT;
+BEGIN
+	i1 : ReconhecedorSequencia
+	PORT MAP (
+-- list connections between master ports and signals
+	HEX0 => HEX0,
+	HEX2 => HEX2,
+	KEY => KEY,
+	LEDR => LEDR,
+	SW => SW
+	);
+init : PROCESS                                               
+-- variable declarations                                     
+BEGIN                                                        
+        -- code that executes only once                      
+WAIT;                                                       
+END PROCESS init;                                           
+always : PROCESS                                              
+-- optional sensitivity list                                  
+-- (        )                                                 
+-- variable declarations                                      
+BEGIN                                                         
+        -- code executes for every event on sensitivity list  
+WAIT;                                                        
+END PROCESS always;                                          
+END ReconhecedorSequencia_arch;
